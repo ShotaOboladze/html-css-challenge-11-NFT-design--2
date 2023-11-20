@@ -1,0 +1,65 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "WorkSans-SemiBold";
+  font-size: 16px;
+}
+button[type="button"]:hover {
+  background: rgba(54, 89, 134, 0.7);
+}
+.artist-card button {
+  border-radius: 20px;
+  color: rgba(250, 250, 250, 0.8);
+  font-family: "WorkSans-Regular";
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #a259ff !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: "WorkSans-SemiBold";
+  line-height: 110%;
+}
+p {
+  color: rgba(250, 250, 250, 0.8);
+}
+input {
+  outline: none;
+  border: none;
+  height: 60px;
+  border-radius: 20px;
+}
+input[type="email"] {
+  padding-left: 16px;
+}
+input[type="submit"] {
+  width: 210px;
+  padding-left: 30px;
+  background: #a259ff;
+  cursor: pointer;
+  color: #fff;
+  font-family: "WorkSans-SemiBold";
+  font-size: 16px;
+  line-height: 140%; /* 22.4px */
+}
+form:hover,
+input:hover {
+  border-radius: 20px;
+  background: #b68cec;
+}
