@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: local("WorkSans-Regular");
+  src: url(../fonts/WorkSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: local("WorkSans-SemiBold");
+  src: url(../fonts/WorkSans-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SpaceMono-Regular";
+  src: local("SpaceMono-Regular");
+  src: url(../fonts/SpaceMono-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SpaceMono-Bold";
+  src: local("SpaceMono-Bold");
+  src: url(../fonts/SpaceMono-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
